@@ -1,5 +1,97 @@
 body {
   background: #222;
   color: #efefef;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  p {
+    margin: 0.5rem 0;
+    line-height: 1.5;
+  }
+  padding: 0 1rem;
+}
+
+::selection {
+  background: #d95763;
+  color: #efefef;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(20px);
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  a {
+    color: #bd93f9;
+    font-size: 1.618rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    align-content: right;
+    display: block;
+    width: 100%;
+    border: 2px solid transparent;
+    &:hover {
+      border-bottom: 2px solid #bd93f9;
+    }
+  }
+}
+
+#navButton {
+  width: 3.25rem;
+  height: 3.25rem;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  background: transparent;
+  color: white;
+  border: unset;
+  box-shadow: unset;
+  z-index: 9;
+}
+
+#mainNav {
+  transition: all 250ms ease;
+  transform: translateX(-100%);
+  opacity: 0;
+  &.open {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+
+hr {
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #9badb7;
+}
+
+h1,
+h2 {
+  font-size: 3.42rem;
+  margin: 0.25em 0;
+  font-weight: 200;
+  letter-spacing: 0.02rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: #9badb7;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+.allCaps {
+  text-transform: uppercase;
 }
