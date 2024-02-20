@@ -97,10 +97,13 @@ header div.titleContainer {
   flex-direction: column;
   justify-content: center;
   flex: 1;
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
   max-height: fit-content;
   justify-content: center;
   align-items: center;
   min-width: 300px;
+  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
 }
 header div.titleContainer h1 {
@@ -174,6 +177,7 @@ nav {
   z-index: 8;
 }
 nav .linkContainer {
+  -webkit-filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
   filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
   display: flex;
   flex-direction: column;
@@ -182,6 +186,7 @@ nav .linkContainer a {
   font-size: 3.42rem;
   background: linear-gradient(#ffffff, #a0a0a0);
   color: transparent;
+  -webkit-background-clip: text;
   background-clip: text;
   text-decoration: none;
   align-content: right;
@@ -208,13 +213,14 @@ nav .linkContainer a:hover {
   right: 0px;
   top: 0px;
   position: fixed;
-  background: transparent;
   color: #3a434a;
   border: unset;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23), inset 1px -1px 0 rgba(255, 255, 255, 0.15), inset -1px 1px 0 rgba(0, 0, 0, 0.025);
   z-index: 9;
   border-radius: 50%;
-  background: #efefef;
+  background: rgba(255, 255, 255, 0.75);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
 #mainNav {
