@@ -207,8 +207,8 @@ ul {
   list-style: none;
   li {
     a {
-      text-transform: uppercase;
       text-decoration: none;
+      border-bottom: 1px dotted #93bcf9;
       font-weight: 500;
       color: #93bcf9;
       letter-spacing: 0.1rem;
