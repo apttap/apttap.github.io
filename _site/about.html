@@ -1,35 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/styles.css" />
     <script>
-      document.addEventListener("DOMContentLoaded", function() {
+      document.addEventListener("DOMContentLoaded", function () {
         var button = document.getElementById("navButton");
         var nav = document.getElementById("mainNav");
-    
-        button.addEventListener("click", function() {
+
+        button.addEventListener("click", function () {
           nav.classList.toggle("open");
         });
       });
-    </script>    
+    </script>
   </head>
-  <body class="main">
+  <body>
     <header>
-      <h1 class="allCaps">Austin Pittman</h1>
-      <h2>Engineer, Designer, Artist</h2>
+      <img src="/assets/images/avatar.png" />
+      <div class="titleContainer">
+        <h1 class="allCaps">Austin Pittman</h1>
+        <h2>Engineer, Designer, Artist</h2>
+      </div>
     </header>
     <button id="navButton">
-      <svg xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 52 52"
-            fill="none"1.618
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-            stroke-linejoin="round" 
-            class="feather feather-x">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 52 52"
+        fill="none"
+        1.618
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-x"
+      >
         <line x1="34" y1="18" x2="18" y2="34"></line>
         <line x1="18" y1="18" x2="34" y2="34"></line>
       </svg>
@@ -47,16 +53,40 @@
     <a href="/contact.html" >Contact</a>
   
 </nav>
-    <hr/>
-    <h2 id="about-page">About page</h2>
+    <div class="main"><h2 id="about-me">About Me</h2>
 
-<p>I’m a multi-hyphenate nomad currently traveling the country with my trusty canine companion Dot. With over 20 years of experience I create user interfaces that bring first-class accessibility to the world of instrumentation and controls software.</p>
+<p>I’m a digital nomad embracing a primitive lifestyle as I travel the country on bike, with my dog, Dot.</p>
 
-<p>I have extensive experience in the world of automation and operations in critical facilities. For the past decade I have been working to apply my experience to break ground on the world of construction &amp; manufacturing, to create open-source robotics and power generation to enable free, and off-grid housing solutions for those interested in sustainability and independence.</p>
+<p>I have extensive experience in software, automation, manufacturing robots, construction, and operations in critical facilities. Since 2017, I’ve been applying my experience to pioneer advancements in the fields of construction, manufacturing, with an emphasis on sustainability and frugality.</p>
 
-<p>Whether it’s open-source software, community art projects, or hardware hacks that improve lives, I’m excited to team up with others who share my passion for making a difference. I seek the challenge of creation, and the belief that technology can be a powerful tool for good.</p>
+<p>My goal is to create an open-source platform to partially automate the design, construction, and maintenance of off-grid structures using sustainable materials, robotics, and Artificial Intelligence. This will enable off-grid living and independence from financial obligations in order to live on planet earth.</p>
 
-<p>If you’re looking for a code-wielding explorer, a design-minded tinkerer, or a collaborator fueled by a desire to leave the world a little better than we found it, contact me.</p>
-
+<p>To kickstart this initiative, I’m developing an open-source, AI-cooperative, software platform to assist in operation of manufacturing robots such as 3D Printers.</p>
+</div>
+    <footer>
+      <ul>
+        <li>
+          <a href="mailto:austin.j.pittman.nm@gmail.com"
+            ><img src="/assets/images/mail_line.svg" alt="E-mail"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/pittman69696969"
+            ><img src="/assets/images/instagram_line.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.x.com/austinpittman"
+            ><img src="/assets/images/x_line.svg" alt="X/Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/austin-pittman-eng"
+            ><img src="/assets/images/linkedin_line.svg" alt="LinkedIn"
+          /></a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Austin Pittman</p>
+    </footer>
   </body>
 </html>
