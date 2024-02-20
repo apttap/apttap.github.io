@@ -163,10 +163,10 @@ nav {
   background: transparent;
   color: #3a434a;
   border: unset;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23), inset 1px -1px 0 rgba(255, 255, 255, 0.15), inset -1px 1px 0 rgba(0, 0, 0, 0.025);
   z-index: 9;
   border-radius: 50%;
-  background: white;
+  background: #efefef;
 }
 
 #mainNav {
