@@ -86,7 +86,7 @@ header {
   background: #aab5bb;
   color: #3a434a;
   align-items: center;
-  padding: 2rem 0 0 0;
+  padding: 2.5rem 0 0 0;
 }
 header .text-wrapper {
   position: relative;
@@ -201,8 +201,8 @@ nav .linkContainer a:hover {
 }
 
 #navButton {
-  width: 3.81rem;
-  height: 3.81rem;
+  width: 3.42rem;
+  height: 3.42rem;
   margin: 0.5rem;
   right: 0px;
   top: 0px;
@@ -210,8 +210,10 @@ nav .linkContainer a:hover {
   background: transparent;
   color: #3a434a;
   border: unset;
-  box-shadow: unset;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   z-index: 9;
+  border-radius: 50%;
+  background: white;
 }
 
 #mainNav {
