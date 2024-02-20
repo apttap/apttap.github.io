@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -15,6 +16,11 @@ body {
     line-height: 1.5;
   }
   max-width: 100%;
+}
+
+::-moz-selection {
+  background: #d95763;
+  color: #efefef;
 }
 
 ::selection {
@@ -91,12 +97,12 @@ footer {
   flex: 1;
 }
 
-
 nav {
   display: flex;
   flex-direction: column;
   position: fixed;
   background: rgba(0, 0, 0, 0.75);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   left: 0px;
   top: 0px;
@@ -109,6 +115,8 @@ nav {
     text-decoration: none;
     text-transform: uppercase;
     align-content: right;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     border: 2px solid transparent;
     border-radius: 4px;
@@ -200,10 +208,11 @@ form {
   background: #efefef;
   padding: 1rem;
   color: #3a434a;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   border-top: 1px solid #fff;
   border-right: 1px solid #fff;
-  &:after, &:before {
+  &:after,
+  &:before {
     content: "";
     position: absolute;
     top: 0;
@@ -230,7 +239,7 @@ form {
     margin: 0.5rem 0;
     border: unset;
     border-bottom: 1px dashed #3a434a;
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     font-weight: 600;
     color: #3a434a;
     outline-offset: 2px;
@@ -244,13 +253,15 @@ form {
     padding: 0.5rem;
     margin: 0.5rem 0;
     border-radius: 4px;
-    background: linear-gradient(45deg, #7198d3,  #93bcf9);
+    background: linear-gradient(45deg, #7198d3, #93bcf9);
     font-weight: 600;
     color: #3a434a;
-    text-shadow: -1px 1px 0 rgba(255,255,255,0.25);
+    text-shadow: -1px 1px 0 rgba(255, 255, 255, 0.25);
     outline-offset: 2px;
     border: 1px solid #6284b7;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.16), 0 1px 2px rgba(0,0,0,0.23), inset -1px 2px 0 rgba(255,255,255,0.15), inset 1px -2px 0 rgba(0,0,0,0.025);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 2px rgba(0, 0, 0, 0.23),
+      inset -1px 2px 0 rgba(255, 255, 255, 0.15),
+      inset 1px -2px 0 rgba(0, 0, 0, 0.025);
     &:active {
       background: #7198d3;
     }

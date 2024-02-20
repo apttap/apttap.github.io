@@ -51,7 +51,8 @@ body, html {
   scroll-behavior: smooth; /* Makes normal scrolling smooth */
 }
 
-html, body {
+html,
+body {
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -67,6 +68,11 @@ body {
 body p {
   margin: 0.5rem 0;
   line-height: 1.5;
+}
+
+::-moz-selection {
+  background: #d95763;
+  color: #efefef;
 }
 
 ::selection {
@@ -147,6 +153,7 @@ nav {
   flex-direction: column;
   position: fixed;
   background: rgba(0, 0, 0, 0.75);
+  -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   left: 0px;
   top: 0px;
@@ -160,6 +167,8 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   align-content: right;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   border: 2px solid transparent;
   border-radius: 4px;
