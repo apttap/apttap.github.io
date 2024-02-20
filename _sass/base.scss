@@ -30,15 +30,17 @@ body {
 
 header {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: #aab5bb;
+  align-items: center;
   div.titleContainer {
     display: flex;
-    flex: 1;
     flex-direction: column;
     justify-content: center;
     flex: 1;
+    max-height: fit-content;
     justify-content: center;
+    align-items: center;
     min-width: 300px;
     h1 {
       color: #222;
@@ -165,14 +167,13 @@ hr {
 h1,
 h2 {
   font-size: 4.63rem;
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 0.02rem;
 }
 
 h2 {
   font-size: 1.2rem;
   color: #aab5bb;
-  font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   margin: 1.612rem 0;
