@@ -179,7 +179,7 @@ nav .linkContainer {
   flex-direction: column;
 }
 nav .linkContainer a {
-  font-size: 2.41rem;
+  font-size: 3.42rem;
   background: linear-gradient(#ffffff, #a0a0a0);
   color: transparent;
   background-clip: text;
@@ -191,7 +191,8 @@ nav .linkContainer a {
   border: 2px solid transparent;
   border-radius: 4px;
   padding: 0.5rem;
-  font-weight: 500;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
 }
 nav .linkContainer a:active {
   background: rgba(255, 255, 255, 0.05);
