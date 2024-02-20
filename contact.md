@@ -16,7 +16,7 @@ title: Contact
   <label for="email">Email</label>
   <input type="email" name="email" required />
   <label for="message">Message</label>
-  <textarea name="message" required></textarea>
+  <textarea name="message" rows="5" required></textarea>
   <input
     type="hidden"
     name="redirect"
