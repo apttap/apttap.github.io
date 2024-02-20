@@ -52,11 +52,13 @@ header {
     min-width: 300px;
     filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
     h1 {
+
       background: linear-gradient(#51616b, #3a434a);
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
       font-weight: 900;
+      text-shadow: inset 1px 2px 0 rgba(255, 255, 255, 1);
     }
   }
 
@@ -186,7 +188,7 @@ h2 {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  margin: 0.621rem 0;
+  margin: 0 0 0.621rem 0;
 }
 
 .allCaps {
