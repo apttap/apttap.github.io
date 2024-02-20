@@ -22,5 +22,5 @@ title: Contact
     name="redirect"
     value="https://web3forms.com/success"
   />
-  <button type="submit">Submit Form</button>
+  <button type="submit">Send Message</button>
 </form>
