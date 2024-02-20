@@ -173,11 +173,17 @@ nav {
   padding: 1rem;
   z-index: 8;
 }
-nav a {
-  color: #93bcf9;
+nav .linkContainer {
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+  display: flex;
+  flex-direction: column;
+}
+nav .linkContainer a {
   font-size: 1.618rem;
+  background: linear-gradient(#ffffff, #a0a0a0);
+  color: transparent;
+  background-clip: text;
   text-decoration: none;
-  text-transform: uppercase;
   align-content: right;
   width: -webkit-fit-content;
   width: -moz-fit-content;
@@ -185,12 +191,13 @@ nav a {
   border: 2px solid transparent;
   border-radius: 4px;
   padding: 0.5rem;
+  font-weight: 500;
 }
-nav a:active {
+nav .linkContainer a:active {
   background: rgba(255, 255, 255, 0.05);
 }
-nav a:hover {
-  border-bottom: 2px solid white;
+nav .linkContainer a:hover {
+  border-bottom: 2px solid #6284b7;
 }
 
 #navButton {

@@ -124,24 +124,31 @@ nav {
   height: 100%;
   padding: 1rem;
   z-index: 8;
-  a {
-    color: #93bcf9;
-    font-size: 1.618rem;
-    text-decoration: none;
-    text-transform: uppercase;
-    align-content: right;
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
-    border: 2px solid transparent;
-    border-radius: 4px;
-    padding: 0.5rem;
-
-    &:active {
-      background: rgba(255, 255, 255, 0.05);
-    }
-    &:hover {
-      border-bottom: 2px solid white;
+  .linkContainer {
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.25));
+    display: flex;
+    flex-direction: column;
+    a {
+      font-size: 1.618rem;
+      background: linear-gradient(#ffffff, #a0a0a0);
+      color: transparent;
+      background-clip: text;
+      text-decoration: none;
+      align-content: right;
+      width: -webkit-fit-content;
+      width: -moz-fit-content;
+      width: fit-content;
+      border: 2px solid transparent;
+      border-radius: 4px;
+      padding: 0.5rem;
+      font-weight: 500;
+  
+      &:active {
+        background: rgba(255, 255, 255, 0.05);
+      }
+      &:hover {
+        border-bottom: 2px solid #6284b7;
+      }
     }
   }
 }
