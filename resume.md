@@ -55,4 +55,4 @@ Versatile Full-Stack Engineer with a decade of experience spanning software deve
 
 ### Education
 
-I have two degrees which are each about 30 credits from completion, one in Nuclear Engineering, and another in Computer Science.
+I have two degrees which are each 30 credits from completion. One is in Nuclear Engineering, and the other is in Computer Science.
