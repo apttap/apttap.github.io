@@ -56,3 +56,7 @@ Versatile Full-Stack Engineer with a decade of experience spanning software deve
 ### Education
 
 I have two degrees which are each 30 credits from completion. One is in Nuclear Engineering, and the other is in Computer Science.
+
+- AHERA Asbestos Supervisor (2012)
+- HAZWOPER (2010-2012)
+- Naval Nuclear Power Training Command (2003-2005)
