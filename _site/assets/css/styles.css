@@ -274,6 +274,12 @@ blockquote {
   margin: 0.5rem 0 0.5rem 0.5rem;
   position: relative;
 }
+blockquote em {
+  display: block;
+  margin: 0.5rem 0;
+  font-weight: 500;
+  color: #dfdfdf;
+}
 
 ul {
   list-style: none;
