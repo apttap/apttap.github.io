@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const button = document.getElementById("navButton");
+        const indicator = button.querySelector("svg");
+        const nav = document.getElementById("mainNav");
+        let open = false;
+
+        button.addEventListener("click", function () {
+          nav.classList.toggle("open");
+          open = !open;
+          if (open) {
+            indicator.innerHTML = `
+              <line x1="34" y1="18" x2="18" y2="34"></line>
+              <line x1="18" y1="18" x2="34" y2="34"></line>
+            `;
+          } else {
+            indicator.innerHTML = `
+              <line x1="34" y1="30" x2="18" y2="30"></line>
+              <line x1="18" y1="22" x2="34" y2="22"></line>
+            `;
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <header>
+      <div class="titleContainer">
+        <h1 class="allCaps">Austin Pittman</h1>
+        <h2>Engineer, Designer, Artist</h2>
+      </div>
+      <img src="/assets/images/avatar.png" />
+    </header>
+    <button id="navButton">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 52 52"
+        fill="none"
+        1.618
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        class="feather feather-x"
+      >
+        <line x1="34" y1="30" x2="18" y2="30"></line>
+        <line x1="18" y1="22" x2="34" y2="22"></line>
+      </svg>
+    </button>
+    <nav id="mainNav">
+  <div class="linkContainer">
+    
+      <a href="/" >About</a>
+    
+      <a href="/projects.html" >Projects</a>
+    
+      <a href="/blog.html" >Blog</a>
+    
+      <a href="/resume.html" class="current">Resume</a>
+    
+      <a href="/contact.html" >Contact</a>
+    
+  </div>
+</nav>
+    <div class="main"><h3 id="summary">Summary</h3>
+
+<p>Versatile Full-Stack Engineer with a decade of experience spanning software development and industrial engineering, including roles in industrial controls, hardware automation, and nuclear power operations. My passion lies in fostering accessibility, advancing machine learning, and refining human-machine interfaces.</p>
+
+<hr />
+
+<h3 id="experience">Experience</h3>
+
+<h4 id="founding-engineer">Founding Engineer</h4>
+<h5 id="valence-2022-current">Valence (2022-Current)</h5>
+
+<blockquote>
+  <p>Leading the development of a groundbreaking software platform facilitating seamless integration between machine learning models and diverse software interfaces. This innovation empowers users to leverage inference model outputs alongside traditional software, unlocking novel functionalities. Technologies: Typescript, NodeJS, React-Aria, ReactJS, JavaScript. Proficient in Agile methodologies, utilizing Jira for streamlined project management.</p>
+</blockquote>
+
+<h4 id="senior-engineer">Senior Engineer</h4>
+<h5 id="sparq-2021-2022">Sparq (2021-2022)</h5>
+
+<blockquote>
+  <p>Contributed to an international fleet management company’s success by crafting a comprehensive user interface component library using ReactJS and TypeScript. Provided invaluable consultancy to transition the design team towards WAI-ARIA compliant design systems. Drove software requirements gathering and specification development, while identifying and rectifying accessibility challenges for an international payment processor. Technologies: React Spectrum, ARIA, Git, NPM.</p>
+</blockquote>
+
+<h4 id="senior-engineer-1">Senior Engineer</h4>
+<h5 id="bsubas-2020-2021">BSUBAS (2020-2021)</h5>
+
+<blockquote>
+  <p>Pioneered software solutions streamlining project specification processes within an engineering firm, significantly reducing time-to-specification. Engineered bespoke development environments utilizing Ace, React, and Typescript. Collaborated closely with the CTO to refine domain-specific language specifications and spearheaded the transition to Visual Studio Code and Language Server Protocol. Technologies: ReactJS, Electron, Langium, Xtext, Visual Studio Code.</p>
+</blockquote>
+
+<h4 id="senior-engineer-2">Senior Engineer</h4>
+<h5 id="aquent-studios-2017-2019">Aquent Studios (2017-2019)</h5>
+
+<blockquote>
+  <p>Led software scope development initiatives for clients, synthesizing software specifications and collaborating on UI/UX design. Delivered top-tier user interfaces using ReactJS and motion graphics in Adobe After Effects, enhancing client satisfaction and product appeal. Technologies: NodeJS, Express, HTML5, CSS.</p>
+</blockquote>
+
+<h4 id="senior-field-engineer">Senior Field Engineer</h4>
+<h5 id="lutron-electronics-2014-2017">Lutron Electronics (2014-2017)</h5>
+
+<blockquote>
+  <p>Oversaw the installation and commissioning of automation systems in various facilities, ensuring seamless project execution. Collaborated closely with project management and engineers to meet project objectives and provided comprehensive training. Proficiencies include Serial Communications, Embedded Systems, and Automation.</p>
+</blockquote>
+
+<h4 id="ui-engineer--design-lead">UI Engineer / Design Lead</h4>
+<h5 id="jpi-worldwide-2012-2014">JPI Worldwide (2012-2014)</h5>
+
+<blockquote>
+  <p>Drove UI development initiatives, crafting intuitive JavaScript components and spearheading UI/UX design for aviation logistics applications. Formulated and implemented an accessibility strategy for company UI components, bolstering inclusivity. Notable expertise in JavaScript, Grails, and SVG.</p>
+</blockquote>
+
+<h4 id="nuclear-decommisioning-engineer">Nuclear Decommisioning Engineer</h4>
+<h5 id="wch-2010-2012">WCH (2010-2012)</h5>
+
+<blockquote>
+  <p>Served as a pivotal planner for the decommissioning of plutonium production facilities, orchestrating meticulous planning sessions and conducting site evaluations. Possessed expertise in asbestos abatement planning and adherence to AHERA regulations.</p>
+</blockquote>
+
+<h4 id="senior-reactor-operator">Senior Reactor Operator</h4>
+<h5 id="us-navy-2003-2009">US NAVY (2003-2009)</h5>
+
+<blockquote>
+  <p>Managed nuclear reactor operations and maintenance on an aircraft carrier, overseeing technical documentation and spearheading data tracking initiatives. Led teams in controls maintenance and ensured compliance with stringent quality assurance protocols.</p>
+</blockquote>
+
+<hr />
+
+<h3 id="education">Education</h3>
+
+<p>I have two degrees which are each about 30 credits from completion, one in Nuclear Engineering, and another in Computer Science.</p>
+</div>
+    <footer>
+      <ul>
+        <li>
+          <a href="mailto:austin.j.pittman.nm@gmail.com"
+            ><img src="/assets/images/mail_line.svg" alt="E-mail"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/pittman69696969"
+            ><img src="/assets/images/instagram_line.svg" alt="Instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.x.com/austinpittman"
+            ><img src="/assets/images/x_line.svg" alt="X/Twitter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/austin-pittman-eng"
+            ><img src="/assets/images/linkedin_line.svg" alt="LinkedIn"
+          /></a>
+        </li>
+      </ul>
+      <p>&copy; 2024 Austin Pittman</p>
+    </footer>
+  </body>
+</html>
