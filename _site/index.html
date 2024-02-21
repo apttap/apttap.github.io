@@ -6,55 +6,56 @@
     <title>About</title>
     <link rel="stylesheet" href="/assets/css/styles.css" />
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const button = document.getElementById("navButton");
-        const indicator = button.querySelector("svg");
-        const nav = document.getElementById("mainNav");
-        let open = false;
+  document.addEventListener("DOMContentLoaded", function () {
+    const button = document.getElementById("navButton");
+    const indicator = button.querySelector("svg");
+    const nav = document.getElementById("mainNav");
+    let open = false;
 
-        button.addEventListener("click", function () {
-          nav.classList.toggle("open");
-          open = !open;
-          if (open) {
-            indicator.innerHTML = `
-              <line x1="34" y1="18" x2="18" y2="34"></line>
-              <line x1="18" y1="18" x2="34" y2="34"></line>
-            `;
-          } else {
-            indicator.innerHTML = `
-              <line x1="34" y1="30" x2="18" y2="30"></line>
-              <line x1="18" y1="22" x2="34" y2="22"></line>
-            `;
-          }
-        });
-      });
-    </script>
+    button.addEventListener("click", function () {
+      nav.classList.toggle("open");
+      open = !open;
+      if (open) {
+        indicator.innerHTML = `
+          <line x1="34" y1="18" x2="18" y2="34"></line>
+          <line x1="18" y1="18" x2="34" y2="34"></line>
+        `;
+      } else {
+        indicator.innerHTML = `
+          <line x1="34" y1="30" x2="18" y2="30"></line>
+          <line x1="18" y1="22" x2="34" y2="22"></line>
+        `;
+      }
+    });
+  });
+</script>
+
   </head>
   <body>
     <header>
-      <div class="titleContainer">
-        <h1 class="allCaps">Austin Pittman</h1>
-        <h2>Engineer, Designer, Artist</h2>
-      </div>
-      <img src="/assets/images/avatar.png" />
-    </header>
+  <div class="titleContainer">
+    <h1 class="allCaps">Austin Pittman</h1>
+    <h2>Engineer, Designer, Artist</h2>
+  </div>
+  <img src="/assets/images/avatar.png" />
+</header>
+
     <button id="navButton">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 52 52"
-        fill="none"
-        1.618
-        stroke="currentColor"
-        stroke-width="2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-        class="feather feather-x"
-      >
-        <line x1="34" y1="30" x2="18" y2="30"></line>
-        <line x1="18" y1="22" x2="34" y2="22"></line>
-      </svg>
-    </button>
-    <nav id="mainNav">
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 52 52"
+    fill="none"
+    1.618
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <line x1="34" y1="30" x2="18" y2="30"></line>
+    <line x1="18" y1="22" x2="34" y2="22"></line>
+  </svg>
+</button>
+<nav id="mainNav">
   <div class="linkContainer">
     
       <a href="/" class="current">About</a>
@@ -67,7 +68,8 @@
     
   </div>
 </nav>
-    <div class="main"><h2 id="about-me">About Me</h2>
+    <div class="main">
+      <h2 id="about-me">About Me</h2>
 
 <p>I’m a digital nomad embracing a primitive lifestyle as I travel the country on bike, with my dog, Dot.</p>
 
@@ -76,31 +78,33 @@
 <p>My goal is to create an open-source platform to partially automate the design, construction, and maintenance of off-grid structures using sustainable materials, robotics, and Artificial Intelligence. This will enable thriving off-grid, and independence from financial obligations while living on planet earth.</p>
 
 <p>To kickstart this initiative, I’m developing an open-source, AI-cooperative, software platform to assist in operation of manufacturing robots such as 3D Printers.</p>
-</div>
+
+    </div>
     <footer>
-      <ul>
-        <li>
-          <a href="mailto:austin.j.pittman.nm@gmail.com"
-            ><img src="/assets/images/mail_line.svg" alt="E-mail"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/pittman69696969"
-            ><img src="/assets/images/instagram_line.svg" alt="Instagram"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.x.com/austinpittman"
-            ><img src="/assets/images/x_line.svg" alt="X/Twitter"
-          /></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/austin-pittman-eng"
-            ><img src="/assets/images/linkedin_line.svg" alt="LinkedIn"
-          /></a>
-        </li>
-      </ul>
-      <p>&copy; 2024 Austin Pittman</p>
-    </footer>
+  <ul>
+    <li>
+      <a href="mailto:austin.j.pittman.nm@gmail.com"
+        ><img src="/assets/images/mail_line.svg" alt="E-mail"
+      /></a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/pittman69696969"
+        ><img src="/assets/images/instagram_line.svg" alt="Instagram"
+      /></a>
+    </li>
+    <li>
+      <a href="https://www.x.com/austinpittman"
+        ><img src="/assets/images/x_line.svg" alt="X/Twitter"
+      /></a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/austin-pittman-eng"
+        ><img src="/assets/images/linkedin_line.svg" alt="LinkedIn"
+      /></a>
+    </li>
+  </ul>
+  <p>&copy; 2024 Austin Pittman</p>
+</footer>
+
   </body>
 </html>
