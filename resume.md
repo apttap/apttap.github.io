@@ -4,7 +4,7 @@ title: Resume
 ---
 ### Summary
 
- A versatile Full-Stack Engineer with a decade of experience spanning software development, and an additional decade of experience in industrial engineering, including roles in industrial controls, hardware automation, and nuclear power operations. I possess a passion for creating software that is accessible, advancing machine learning, and refining human-machine interfaces.
+ A versatile Full-Stack Engineer with a decade of experience spanning software development, and an additional decade of experience including roles in industrial controls, hardware automation, and nuclear power operations. I possess a passion for creating software that is accessible, advancing machine learning, and refining human-machine interfaces.
 
 ---
 
