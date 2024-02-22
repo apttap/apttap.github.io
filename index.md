@@ -5,7 +5,7 @@ title: About
 
 ## About Me
 
-I'm a digital nomad embracing a primitive lifestyle as I travel the country on bike, with my dog, Dot.
+I'm a digital nomad embracing a primitive lifestyle as I travel the country on bike, with my dog.
 
 I have extensive experience in software, automation, manufacturing robots, construction, and operations in critical facilities. Since 2017, I've been applying my experience to pioneer advancements in the fields of construction, and manufacturing, with an emphasis on sustainability and frugality.
 
