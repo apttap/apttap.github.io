@@ -4,67 +4,96 @@ title: Resume
 ---
 ### Summary
 
- A versatile Full-Stack Engineer with a decade of experience spanning software development, and an additional decade of experience including roles in industrial controls, hardware automation, and nuclear power operations. I possess a passion for creating software that is accessible, advancing machine learning, and refining human-machine interfaces.
+A senior engineer with over 10 years of experience in software engineering, and additional
+engineering experience in industrial controls, hardware automation, and nuclear power
+operations. Specializing in accessibility, optimization, machine learning, and human-machine
+interfaces.
 
 ---
 
 ### Experience
 
-#### Founder
-##### Valence (2022-Current)
+#### Senior Software Engineer
+##### Confidential (2022-Current)
 
-> Leading the development of a groundbreaking software platform facilitating seamless integration between machine learning models and diverse software interfaces. This innovation empowers users to leverage inference model outputs alongside traditional software processes, unlocking novel functionalities.
-_Typescript, NodeJS, React-Aria, ReactJS, JavaScript, UI/UX, ESM, WCAG-ARIA_
+> - Authored a TypeScript driver for a multi-modal database
+> - Designed and built a web interface for 3d printing software using ReactJS
+> - Created an application for interacting with machine-learning models.
+> - Specified a framework for the automation of software documentation.
+>   
+> _ReactJS, React-Aria, WAI-ARIA, JavaScript, TypeScript, CI/CD, Git, NodeJS, ESBuild,
+Graph Database, Actor Model, State Machines, Rush Stack_
 
 #### Senior Engineer
 ##### Sparq (2021-2022)
 
-> Contributed to an international fleet management company's success by crafting a comprehensive user interface component library using ReactJS, TypeScript, and React-Aria. Provided consultation to transition the design team towards WAI-ARIA compliant design systems. Drove software requirements gathering and specification development, while identifying and addressing accessibility challenges for an international payment processor.
-_React-Aria, Git, NPM, DOM, Javascript, Typescript, Roll-up, UI/UX, WCAG-ARIA_
+> - Gathered software requirements, developed specifications for software.
+> - Created UI components for an international payment processor in ReactJS.
+> - Successfully advocated for accessibility across product designs.
+>
+> _ReactJS, React Spectrum, WAI-ARIA, JavaScript, TypeScript, Git, NPM, DOM_
 
 #### Senior Engineer
 ##### BSUBAS (2020-2021)
 
-> Pioneered software solutions streamlining project specification processes within an engineering firm, significantly reducing time-to-specification. Engineered bespoke development environments utilizing Ace, React, and Typescript. Collaborated closely with the CTO to refine specifications for a domain-specific language IDE and spearheaded the transition to Visual Studio Code and Language Server Protocol.
-_ReactJS, Electron, Langium, Xtext, VS Code, UI/UX, BACNet, Siemens Automation Software, WCAG-ARIA_
+> - Create software for the specification process of an engineering firm.
+> - Created a custom development environment in Ace, React, and Typescript.
+> - Worked with CTO to specify and produce a domain specific language.
+> - Installed and maintained automation systems in critical facilities.
+> 
+> _ReactJS, Electron, Typescript, Langium, Xtext, Eclipse, Ace Editor, Visual Studio Code,
+LSP, Siemens Building Automation, BAS, BACNet_
 
 #### Senior Engineer
 ##### Aquent Studios (2017-2019)
 
-> Led software scope development initiatives for clients, synthesizing software specifications and collaborating on UI/UX design. Delivered top-tier user interfaces using ReactJS and motion graphics in Adobe After Effects, enhancing client satisfaction and product appeal.
-_ReactJS, REST, NodeJS, Express, HTML5, CSS, API Design, UI/UX, Motion Graphics, WCAG-ARIA_
+> - Worked with clients to develop scope for their software products.
+> - Wrote specification for software and worked with design on UI/UX.
+> - Implemented user interfaces in ReactJS.
+> - Produced motion graphics in Adobe After Effects, and ReactJS.
+>
+> _ReactJS, JavaScript, NodeJS, Express, Motion Graphics, HTML5, CSS, SVG, Adobe
+Creative Suite_
 
 #### Senior Field Engineer
 ##### Lutron Electronics (2014-2017)
 
-> Oversaw the installation and performed programming and commissioning of energy conserving automation systems in various facilities, ensuring seamless project execution. Collaborated closely with project management and engineers to meet project objectives and provided comprehensive training.
-_Serial Communications, Embedded Systems, Automation, Training, Construction Supervision, Build Managment System, BACNet_
+> - Supervised installation of automation systems in facilities.
+> - Programming and commission of automation systems in critical facilities.
+> - Trained building engineers, electricians, and project owners.
+> 
+> _Serial Communications, Automation, Troubleshooting, Networking, Energy Conservation
+Strategies_
 
-#### UI Engineer / Design Lead
+#### Software Engineer / Designer
 ##### JPI Worldwide (2012-2014)
 
-> Drove UI development initiatives, crafting intuitive JavaScript components and spearheading UI/UX design for aviation logistics applications. Formulated and implemented an accessibility strategy for company UI components, bolstering inclusivity.
-_JavaScript, REST, AJAX, JQuery, Grails, SVG, Greensock, API Design, WCAG-ARIA_
+> - Designed and developed UI components in JavaScript.
+> - Designed UI / UX for an aviation logistics application.
+> - Developed an accessibility strategy for company UI components.
+> - Created branding and design language for customer facing products.
+> - Developed multiple internal apps and websites in JavaScript.
+> 
+> _JavaScript, Grails, Greensock, SVG, CSS, CMS, DOM, Adobe Creative Suite_
 
-#### Nuclear Decommisioning Engineer
+#### Work Control Planner / Field Engineer
 ##### WCH (2010-2012)
 
-> Served as a pivotal planner for the decommissioning of plutonium production facilities which were created during the Manhattan Project. I orchestrated meticulous planning sessions and conducting site evaluations. I was training in asbestos abatement planning and supervision, proceduralizing many successful asbestos abatement projects.
-_Scheduling, Technical Writing, Engineering, Technical Research, Industrial Hygeine, Radiological Safety_
+> - Planned the decommissioning of plutonium production facilities.
+> - Conducted meetings with experts to document conditions and develop plans.
+> - Researched and documented proper controls and work steps.
+> - Conducted site walkdowns with subject matter experts.
+>   
+> _Quality Assurance, Work Control, Industrial Hygiene, Radiological Safety_
 
 
-#### Senior Reactor Operator
+#### Reactor Operator / Reactor Protection & Controls
 ##### US NAVY (2003-2009)
 
-> Performed nuclear reactor operations and maintenance on an aircraft carrier. I lead a division of senior technicians overseeing supply-chain, maintenance, documentation, and qunatitative-data tracking initiatives for eight nuclear reactors. Led teams in controls maintenance and ensured compliance with stringent quality assurance protocols.
-_Pressurized Water Reactors, Power Generation, Critical Facilities, Technical Writing, Engineering, Technical Research, Industrial Hygeine, Radiological Safety_
-
----
-
-### Education
-
-I have two degrees which are each 30 credits from completion. One is in Nuclear Engineering, and the other is in Computer Science.
-
-- AHERA Asbestos Supervisor (2012)
-- HAZWOPER (2010-2012)
-- Naval Nuclear Power Training Command (2003-2005)
+> - Operated and maintained nuclear reactors on an aircraft carrier.
+> - Wrote technical work documents for nuclear maintenance and operations.
+> - Managed group tracking the quantitative data of eight nuclear reactors.
+> - Managed group supervising reactor controls work for the USS Enterprise.
+> 
+> _Operations, Work Control, Troubleshooting, Technical Writing, Electronics Repair &
+Calibration, Quality Assurance_
