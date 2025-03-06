@@ -27,9 +27,9 @@ Graph Database, Actor Model, State Machines, Rush Stack_
 #### Senior Engineer
 ##### Sparq (2021-2022)
 
-> - Gathered software requirements, developed specifications for software.
-> - Created UI components for an international payment processor in ReactJS.
-> - Successfully advocated for accessibility across product designs.
+> - Gathered software requirements, developed specifications for software
+> - Created UI components for an international payment processor
+> - Successfully advocated for accessibility across product designs
 >
 > _ReactJS, React Spectrum, WAI-ARIA, JavaScript, TypeScript, Git, NPM, DOM_
 
