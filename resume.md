@@ -21,8 +21,7 @@ interfaces.
 > - Created an application for interacting with machine-learning models
 > - Created a framework for the automation of software documentation
 >   
-> _ReactJS, React-Aria, WAI-ARIA, JavaScript, TypeScript, CI/CD, Git, NodeJS, ESBuild,
-Graph Database, Actor Model, State Machines, Rush Stack_
+> _Vulkan, C, GCC, Linux, ReactJS, React-Aria, WAI-ARIA, JavaScript, TypeScript, CI/CD, Git, NodeJS, ESBuild, Graph Database, Actor Model, State Machines, Rush Stack_
 
 #### Senior Engineer
 ##### Sparq (2021-2022)
