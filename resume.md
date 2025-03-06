@@ -4,8 +4,7 @@ title: Resume
 ---
 ### Summary
 
-A senior engineer with over 10 years of experience in software engineering, and additional
-engineering experience in industrial controls, hardware automation, and nuclear power
+A senior engineer with over 20 years of experience across the disciplines of software, industrial controls, automation, and nuclear power
 operations. Specializing in accessibility, optimization, machine learning, and human-machine
 interfaces.
 
