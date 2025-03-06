@@ -16,10 +16,10 @@ interfaces.
 #### Senior Software Engineer
 ##### Confidential (2022-Current)
 
-> - Authored a TypeScript driver for a multi-modal database
-> - Designed and built a web interface for 3d printing software using ReactJS
-> - Created an application for interacting with machine-learning models.
-> - Specified a framework for the automation of software documentation.
+> - Created a TypeScript driver for a multi-modal database
+> - Created an interface for 3d printing software
+> - Created an application for interacting with machine-learning models
+> - Created a framework for the automation of software documentation
 >   
 > _ReactJS, React-Aria, WAI-ARIA, JavaScript, TypeScript, CI/CD, Git, NodeJS, ESBuild,
 Graph Database, Actor Model, State Machines, Rush Stack_
@@ -36,10 +36,10 @@ Graph Database, Actor Model, State Machines, Rush Stack_
 #### Senior Engineer
 ##### BSUBAS (2020-2021)
 
-> - Create software for the specification process of an engineering firm.
-> - Created a custom development environment in Ace, React, and Typescript.
-> - Worked with CTO to specify and produce a domain specific language.
-> - Installed and maintained automation systems in critical facilities.
+> - Created software for the specification process of an engineering firm
+> - Created a custom development environment in Ace, React, and Typescript
+> - Worked with CTO to specify and produce a domain specific language
+> - Installed and maintained automation systems in critical facilities
 > 
 > _ReactJS, Electron, Typescript, Langium, Xtext, Eclipse, Ace Editor, Visual Studio Code,
 LSP, Siemens Building Automation, BAS, BACNet_
@@ -47,10 +47,10 @@ LSP, Siemens Building Automation, BAS, BACNet_
 #### Senior Engineer
 ##### Aquent Studios (2017-2019)
 
-> - Worked with clients to develop scope for their software products.
-> - Wrote specification for software and worked with design on UI/UX.
-> - Implemented user interfaces in ReactJS.
-> - Produced motion graphics in Adobe After Effects, and ReactJS.
+> - Worked with clients to develop scope for their software products
+> - Wrote specification for software and worked with design on UI/UX
+> - Implemented user interfaces in ReactJS
+> - Produced motion graphics in Adobe After Effects, and ReactJS
 >
 > _ReactJS, JavaScript, NodeJS, Express, Motion Graphics, HTML5, CSS, SVG, Adobe
 Creative Suite_
@@ -58,9 +58,9 @@ Creative Suite_
 #### Senior Field Engineer
 ##### Lutron Electronics (2014-2017)
 
-> - Supervised installation of automation systems in facilities.
-> - Programming and commission of automation systems in critical facilities.
-> - Trained building engineers, electricians, and project owners.
+> - Supervised installation of automation systems in facilities
+> - Programming and commission of automation systems in critical facilities
+> - Trained building engineers, electricians, and project owners
 > 
 > _Serial Communications, Automation, Troubleshooting, Networking, Energy Conservation
 Strategies_
@@ -69,10 +69,10 @@ Strategies_
 ##### JPI Worldwide (2012-2014)
 
 > - Designed and developed UI components in JavaScript.
-> - Designed UI / UX for an aviation logistics application.
-> - Developed an accessibility strategy for company UI components.
-> - Created branding and design language for customer facing products.
-> - Developed multiple internal apps and websites in JavaScript.
+> - Designed UI / UX for an aviation logistics application
+> - Developed an accessibility strategy for company UI components
+> - Created branding and design language for customer facing products
+> - Developed multiple internal apps and websites in JavaScript
 > 
 > _JavaScript, Grails, Greensock, SVG, CSS, CMS, DOM, Adobe Creative Suite_
 
